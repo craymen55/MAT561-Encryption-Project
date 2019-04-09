@@ -17,4 +17,4 @@ workspace "MAT561EncryptionProject"
 
   project "HelloWorld"
   kind "ConsoleApp"
-  files { "../src/HelloWorld.cpp" }
+  files { "../src/HelloWorld.cpp", "../src/Num.cpp" }

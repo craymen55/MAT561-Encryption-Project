@@ -1,7 +1,9 @@
 #include <iostream>
+#include "Num.hpp"
 
 int main(void)
 {
-  std::cout << "Hello world!" << std::endl;
+  Num n(1234);
+  std::cout << n << std::endl;
   return 0;
 }
