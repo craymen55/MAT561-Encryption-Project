@@ -15,6 +15,6 @@ workspace "MAT561EncryptionProject"
   optimize "Speed"
   filter {}
 
-  project "HelloWorld"
+  project "RSADigitalSignature"
   kind "ConsoleApp"
-  files { "../src/HelloWorld.cpp", "../src/Num.cpp" }
+  files { "../src/Euclid.cpp", "../src/RSADigitalSignatureMain.cpp", "../src/Multinv.cpp", "../src/Modexp.cpp", "../src/Num.cpp" }
